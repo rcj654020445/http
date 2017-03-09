@@ -1,0 +1,33 @@
+﻿方法名	备注
+
+GET	获取一个URL指定的资源，资源实体
+
+HEAD	获取一个指定资源的信息
+
+POST	向服务器提交数据
+
+PUT	向服务器提交资源
+
+DELETE	请求源服务器删除Request-URI标识的资源
+
+TRACE 	网络跟踪
+
+OPTIONS 查询服务器支持的方法
+
+
+
+
+
+
+GET与POST区别
+	
+	1、HTTP没有要求，如果Method是POST数据就要放在BODY中。
+	也没有要求，如果Method是GET，数据（参数）就一定要放在URL中而不能放在BODY中，只是HTML标准对HTTP协议的用法的约定
+	
+	2、HTTP协议对GET和POST都没有对长度的限制
+	URL不存在参数上限的问题，HTTP协议规范没有对URL长度进行限制
+	POST是没有大小限制的，HTTP协议规范也没有进行大小限制
+
+	3、安全不安全和GET、POST没有关系
+
+	一般来说get请求是个用于获取数据，post请求用于修改数据，合理使用http方法

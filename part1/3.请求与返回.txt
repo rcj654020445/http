@@ -1,0 +1,40 @@
+﻿GET请求
+	exmaple	
+		GET /http/part1/index.php?age=18 HTTP/1.1
+		Host:www.test.com
+		Content-type:application/x-www-form-urlencoded
+		Content-length:10
+
+		name=whste
+
+		HTTP/1.1 200 OK
+		Date: Thu, 09 Mar 2017 08:53:03 GMT
+		Server: Apache/2.4.9 (Win64) PHP/5.5.12
+		X-Powered-By: PHP/5.5.12
+		Content-Length: 45
+		Content-Type: text/html
+
+		
+	result-------------> $_GET['age']=18
+
+
+
+
+POST请求
+	example
+		POST /http/part1/index.php?age=18 HTTP/1.1
+		Host:www.test.com
+		Content-type:application/x-www-form-urlencoded
+		Content-length:10
+
+		name=whste
+		HTTP/1.1 200 OK
+		Date: Thu, 09 Mar 2017 08:57:47 GMT
+		Server: Apache/2.4.9 (Win64) PHP/5.5.12
+		X-Powered-By: PHP/5.5.12
+		Content-Length: 65
+		Content-Type: text/html
+
+	result-------------> $_GET['age']=18  $_POST['name']=whste
+
+

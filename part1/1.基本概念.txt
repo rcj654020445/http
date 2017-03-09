@@ -1,0 +1,2 @@
+http协议全称：
+	http-hypertext transfer protocol :超文本传输协议，详细的规定了万维网服务 器与客户端之间数据传送的通信规则

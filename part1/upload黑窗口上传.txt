@@ -1,0 +1,8 @@
+POST /http/part1/upload.php HTTP/1.1
+Host:www.test.com
+Content-type:multipart/form-data,boundary=----WebKitFormBoundary3mKxgDiCmhbwWaK3
+Content-Length:282
+
+----WebKitFormBoundary3mKxgDiCmhbwWaK3 
+Content-Disposition: form-data; name="intro"; filename="move.txt"
+----WebKitFormBoundary3mKxgDiCmhbwWaK3
