@@ -1,0 +1,4 @@
+
+GET /http/part2/cookie.php HTTP/1.1
+Host:www.test.com
+cookie:admin
