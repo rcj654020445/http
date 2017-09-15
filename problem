@@ -1,0 +1,3 @@
+添加header头解决跨域问题
+    header('Access-Control-Allow-Original:XXXXXX')
+    header('Access_Control-Allow-Methods:POST,GET')
